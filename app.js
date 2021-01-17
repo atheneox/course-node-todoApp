@@ -38,6 +38,7 @@ switch (comando) {
         break;
 
     default:
-        console.log('comando no reconocido');
+        console.log(`comando no reconocido`.blue);
+        console.log(`intenta con: node app.js help`);
 
 }
